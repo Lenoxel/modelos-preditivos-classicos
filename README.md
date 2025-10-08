@@ -113,11 +113,15 @@ Quando terminar uma parte do trabalho ou ao final do dia, salve seu progresso no
     # Exemplo: !git commit -m "feat: Adiciona tratamento para valores nulos na coluna idade"
     !git commit -m "tipo: O que você fez de forma resumida"
 
-    # 3. Envia o commit para a SUA branch no GitHub
+    # 3. Criar um personal access token (PAT) e garante que o google colab terá permissão para realizar o `git push`
+    GIT_URL = f"https:/seu_token_aqui@github.com/Lenoxel/modelos-preditivos-classicos.git"
+    !git remote set-url origin {GIT_URL}
+
+    # 4. Envia o commit para a SUA branch no GitHub
     # Exemplo: !git push origin maria/limpeza-de-dados
     !git push origin seu-nome/objetivo-da-tarefa
     ```
-    *O Colab/Git pode pedir sua autenticação do GitHub. A forma mais fácil é usar um [Token de Acesso Pessoal](https://docs.github.com/pt/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) como senha.*
+    *O Colab/Git irá pedir sua autenticação do GitHub. A forma mais fácil é usar um [PAT](https://docs.github.com/pt/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) como senha.*
 
 ### **Etapa 4: ✅ Abra um Pull Request (PR) e Faça o Merge**
 
