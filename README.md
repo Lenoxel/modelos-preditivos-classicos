@@ -66,7 +66,7 @@ Execute estas duas células no início do seu trabalho.
     # Clone o repositório (substitua pela URL do seu projeto)
     !git clone https://github.com/Lenoxel/modelos-preditivos-classicos.git
     ```
-    *Da próxima vez que for trabalhar, você pode pular este passo e ir direto para a Etapa 1, apenas navegando para a pasta já existente com `%cd /content/drive/MyDrive/Colab_Projects/modelos-preditivos-classicos]`.*
+    *Da próxima vez que for trabalhar, você pode pular este passo e ir direto para a Etapa 1, apenas navegando para a pasta já existente com `%cd /content/drive/MyDrive/Colab_Projects/modelos-preditivos-classicos`.*
 
 ### **Etapa 1: 🔄 Sincronize e Crie sua Branch de Trabalho**
 
@@ -74,7 +74,7 @@ Antes de começar a codificar, sempre garanta que você tem a versão mais atual
 
 ```bash
 # Navega para a pasta do projeto que você clonou
-%cd /content/drive/MyDrive/Colab_Projects/modelos-preditivos-classicos]
+%cd /content/drive/MyDrive/Colab_Projects/modelos-preditivos-classicos
 
 # Garante que está na branch principal
 !git checkout main
@@ -104,7 +104,7 @@ Quando terminar uma parte do trabalho ou ao final do dia, salve seu progresso no
 2.  **Adicione e envie suas alterações:**
     ```bash
     # Navega de volta para a pasta do projeto, caso tenha saído
-    %cd /content/drive/MyDrive/Colab_Projects/modelos-preditivos-classicos]
+    %cd /content/drive/MyDrive/Colab_Projects/modelos-preditivos-classicos
 
     # 1. Adiciona TODOS os arquivos que você modificou
     !git add .
